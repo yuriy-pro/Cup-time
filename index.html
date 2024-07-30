@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cup Time</title>
+  <link rel="stylesheet" href="stayles/normalize.css">
+  <link rel="stylesheet" href="stayles/stayle.css">
 </head>
-<body style="background-color: blueviolet;">
+<body>
 
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <a class="header__logo-link">
         <img class="header__logo" src="images/logo.svg" alt="Логотип Cup Time">
       </a>
@@ -42,7 +44,6 @@
           <h1 class="promo__title">Попробуй новый вкус Арабики</h1>
           <a class="promo__link" href="#">Перейти к кофе</a>
         </div>
-        <img src="images/bg-img.png" alt="">
       </div>
     </section>
 
@@ -53,33 +54,55 @@
           <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-24.jpeg" alt="Кокосовая матча">
-              <h3 class="product__title">Кокосовая матча</h3>
-              <p class="product__price">390 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Кокосовая матча</h3>
+                <p class="product__price">390 ₽</p>
+              </div>
             </artical>
+          </li>
+          <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-25.jpeg" alt="Зеленый индонезийский чай">
-              <h3 class="product__title">Зеленый индонезийский чай</h3>
-              <p class="product__price">340 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Зеленый индонезийский чай</h3>
+                <p class="product__price">340 ₽</p>
+              </div>
             </artical>
+          </li>
+          <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-26.jpeg" alt="Черный чай из Эфиопии">
-              <h3 class="product__title">Черный чай из Эфиопии</h3>
-              <p class="product__price">380 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Зеленый индонезийский чай</h3>
+                <p class="product__price">340 ₽</p>
+              </div>
             </artical>
+          </li>
+          <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-21.jpeg" alt="Черный чай из Калифорнии">
-              <h3 class="product__title">Черный чай из Калифорнии</h3>
-              <p class="product__price">360 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Черный чай из Калифорнии</h3>
+                <p class="product__price">360 ₽</p>
+              </div>
             </artical>
+          </li>
+          <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-22.jpeg" alt="Органическая веганская матча">
-              <h3 class="product__title">Органическая веганская матча</h3>
-              <p class="product__price">400 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Органическая веганская матча</h3>
+                <p class="product__price">400 ₽</p>
+              </div>
             </artical>
+          </li>
+          <li class="products__item">
             <artical class="product">
               <img class="product__image" src="images/photo/photo-23.jpeg" alt="Чай черный Лакандона">
-              <h3 class="product__title">Чай черный Лакандона</h3>
-              <p class="product__price">390 ₽</p>
+              <div class="product__content">
+                <h3 class="product__title">Чай черный Лакандона</h3>
+                <p class="product__price">390 ₽</p>
+              </div>
             </artical>
           </li>
         </ul>
@@ -93,7 +116,7 @@
         <img class="footer__logo" src="images/logo.svg" alt="Логотип Cup Time">
       </a>
       <div class="footer__nav">
-        <ul class="footer">
+        <ul class="footer__list">
           <li class="footer-item">
             <a class="footer-link" href="#">Чай</a>
           </li>
@@ -113,7 +136,7 @@
       </div>
       <div class="footer__info">
         <p class="footer__copiright">©CUPTIME, 2024</p>
-        <p class="footer__description">Проект сделан в учебных целях</p>
+        
         <ul class="footer__developers">
           <li class="footer__developer">
             Designer: <a class="footer__developer-link" href="#">Anastasia Ilina</a>           
